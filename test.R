@@ -1,4 +1,4 @@
-```# Load required libraries
+# Load required libraries
 library(SparkR)
 
 # Measure execuation time
@@ -30,7 +30,4 @@ print(time_taken)
 writeLines(paste("Time difference is:", time_taken), conn)
 
 # Close output file connection
-close(conn)```
-Message Input
-
-Message @zehaoc2
+close(conn)
